@@ -3,7 +3,7 @@ import sys
 import math
 
 
-def FightClowns(FightChance, NumberOfOpponents):
+def FightClowns(FightChance, NumberOfOpponents): # Change
     FightSuccessRandom=random.randint(1, 100)
     FightOutcome=FightChance*FightSuccessRandom/NumberOfOpponents
     if FightOutcome>=50: # 50 is a placeholder for the time being, need to adjust later
